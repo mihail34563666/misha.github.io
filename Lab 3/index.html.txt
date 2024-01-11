@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Flexbox Layout</title>
+  <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>YouTube Premium</h1>
+    </div>
+  </header>
+  <div class="container">
+    <aside class="sidebar-left">
+      <div>
+        <h3 class="selected">Головна</h3>
+        <h4 class="other-buttons">Shorts</h4>
+        <h4 class="other-buttons">Підписки</h4>
+    </div>
+
+    <div>
+      <h2 style="padding-top:30px;">Ви  ></h2>
+      <h4 class="other-buttons">Мій канал</h4>
+      <h4 class="other-buttons">Історя</h4>
+      <h4 class="other-buttons">Ваші відео</h4>
+      <h4 class="other-buttons">Переглянути пізніше</h4>
+      <h4 class="other-buttons">Показати більше</h4>
+    </div>
+
+    <div>
+      <h2 style="padding-top: 30px;">Навігатор</h2>
+<h4 class="other-buttons">В тренді</h4>
+      <h4 class="other-buttons">Музика</h4>
+      <h4 class="other-buttons">Фільми</h4>
+      <h4 class="other-buttons">Відеоігри</h4>
+      <h4 class="other-buttons">Новини</h4>
+      <h4 class="other-buttons">Спорт</h4>
+      <h4 class="other-buttons">Навчання</h4>
+    </div>
+
+    </aside>
+    <main class="main-content">
+      <div class="search-bar">
+        <input type="text" placeholder="Пошук">
+        <button>Пошук</button>
+      </div>
+
+<nav class="navigation-menu">
+  <ul>
+    <li><a href="#">Усі</a></li>
+    <li><a href="#">Музика</a></li>
+    <li><a href="#">Зараз у єфірі</a></li>
+    <li><a href="#">Відеоігри</a></li>
+    <li><a href="#">Кулінарні шоу</a></li>
+    <li><a href="#">Новини</a></li>
+    <li><a href="#">Анімація</a></li>
+    <li><a href="#">Grand Theft Auto V</a></li>
+    <li><a href="#">Природа</a></li>
+    <li><a href="#">Ремесла</a></li>
+    <li><a href="#">Туризм</a></li>
+  </ul>
+</nav>
+      <section class="video-selection">
+        <div class="video card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+        <div class="video-card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+        <div class="video-card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+        <div class="video-card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+        <div class="video-card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+        <div class="video-card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+        <div class="video-card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+        <div class="video-card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+        <div class="video-card">
+          <img src="" alt="Video">
+          <h3>Назва відео</h3>
+          <p>Канал / Кількість переглядів / Дата</p>
+        </div>
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>
