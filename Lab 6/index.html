@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .pokemon {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        #pokemon1 {
+            top: 50px;
+            left: 50px;
+        }
+
+        #pokemon2 {
+            top: 150px;
+            left: 150px;
+        }
+
+        @keyframes moveRight {
+            0% { left: 0; }
+            50% { left: 200px; }
+            100% { left: 0; }
+        }
+
+        @keyframes moveDown {
+            0% { top: 0; }
+            50% { top: 200px; }
+            100% { top: 0; }
+        }
+
+        #pokemon1.move-right {
+            animation: moveRight 3s infinite;  нескінченно */
+        }
+
+        #pokemon2.move-down {
+            animation: moveDown 3s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div id="pokemon1" class="pokemon move-right">
+        <img src="pokemon1.png" alt="Pokemon 1">
+    </div>
+    <div id="pokemon2" class="pokemon move-down">
+        <img src="pokemon2.png" alt="Pokemon 2">
+    </div>
+</body>
+</html>
